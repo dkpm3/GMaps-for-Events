@@ -1,0 +1,52 @@
+﻿body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tabla 
+{
+    align:center;
+    position:center;
+    border:solid;
+    border-color:green;
+}
+.filas 
+{
+    height:40px;
+}
+.boton 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/*-------------------------------------------------------------------------------------------*/
+#txtsearch {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 400px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+}
+
+    #txtsearch:focus {
+        border-color: #4d90fe;
+        margin-left: -1px;
+        padding-left: 14px;
+        width: 401px;
+    }
+
+.pac-container {
+    font-family: Roboto;
+}
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
+
+    #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }  
